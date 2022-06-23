@@ -6,3 +6,6 @@ final=final/100;
 figure (1);
 imshow(image)
 figure (2)
+
+
+hello
