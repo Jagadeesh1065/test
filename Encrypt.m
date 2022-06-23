@@ -1,7 +1,12 @@
 image=im2double(imread('/home/student/Desktop/pro.png'));
+
 layer = ['image(:,:,1) image(:,:,2) image(:,:,3)']
+
+
 key = im2double(imread('key.png'))
+
 key = [key(:,:,1) key(:,:,2) key(:,:,3)]
+
 layer = [key(1)*layer(1) key(2)*layer(2) key(3)*layer(3)]
 final(:,:,1)=layer(1)
 final(:,:,2)=layer(2)

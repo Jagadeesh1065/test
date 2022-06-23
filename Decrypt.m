@@ -1,8 +1,13 @@
+
 load('/home/student/final.jpg');
 image = final * 100;
+
 %layer1=image(:,:,1);
+
 %layer2=image(:,:,2);
+
 %layer3=image(:,:,3);
+
 layer = ['image(:,:,1) image(:,:,2) image(:,:,3)']
 key = im2double(imread('key.png'));
 %key1=key(:,:,1);
